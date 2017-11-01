@@ -1,3 +1,5 @@
- ﻿ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
- /etc/init.d/nginx restart
-﻿
+#!/bin/bash
+
+﻿sudo -i
+sudo ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
+sudo /etc/init.d/nginx restart
